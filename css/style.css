@@ -127,3 +127,26 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* IN DESKTOP FIRST */
+ 
+ @media screen and (min-width: 992px) {
+    .site-header {
+        width: 100%;
+    }
+
+    .site-header .text-center {
+        text-align: center;
+    }
+
+    .body {
+        width: 100%;
+    }
+    .container {
+        width: 60%;
+    }
+
+    .container > h2 {   
+        text-align: center;
+    }
+ }
