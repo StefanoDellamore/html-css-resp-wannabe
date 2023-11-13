@@ -128,9 +128,9 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- /* IN DESKTOP FIRST */
+/* IN DESKTOP FIRST */
 
- @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     .site-header {
         width: 100%;
     }
@@ -149,11 +149,11 @@ img {
     .container > h2 {   
         text-align: center;
     }
- }
+}
 
- /* Responsive tablet */
+/* Responsive tablet */
 
- @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .body {
         width: 100%;
     }
@@ -165,4 +165,35 @@ img {
     .container {
         width: 100%;
     }
- }
+}
+
+ /* Responsive smartphone */
+
+ @media screen and (min-width: 480px) {
+    .body {
+        width: 100%;
+        display: flex;
+    }
+
+    .site-header {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .row {
+        flex-direction: column;
+    }
+
+   .row .col {
+    width: 100%;
+    padding-bottom: 50px;
+   }
+}
+    
+    
