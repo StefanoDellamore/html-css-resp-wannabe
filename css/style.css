@@ -129,7 +129,7 @@ img {
  ************************************************/
 
  /* IN DESKTOP FIRST */
- 
+
  @media screen and (min-width: 992px) {
     .site-header {
         width: 100%;
@@ -148,5 +148,21 @@ img {
 
     .container > h2 {   
         text-align: center;
+    }
+ }
+
+ /* Responsive tablet */
+
+ @media screen and (min-width: 768px) {
+    .body {
+        width: 100%;
+    }
+
+    .site-header {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
     }
  }
