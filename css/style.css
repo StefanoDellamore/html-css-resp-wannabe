@@ -130,7 +130,7 @@ img {
 
 /* Responsive tablet */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .container {
         width: 100%;
@@ -139,12 +139,13 @@ img {
 
  /* Responsive smartphone */
 
- @media screen and (min-width: 480px) {
+ @media screen and (max-width: 480px) {
+    
     .row {
         flex-wrap: wrap;
     }
 
-    .lesson .col,
+    .lessons .col,
     .steps .col,
     .why-us .col-left,
     .why-us .col-right {
@@ -153,6 +154,15 @@ img {
 
     col:not(:last-child) {
         margin-bottom: 3rem;
+    }
+
+    .why-us {
+        background-color: #222;
+    }
+      
+
+    .steps, .why-us {
+        margin-bottom: 0;
     }
 }
     
